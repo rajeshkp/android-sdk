@@ -1,4 +1,4 @@
-# Marketo Mobile SDK for Android 0.5.3
+# Marketo Mobile SDK for iOS 0.6.4
 
 The Marketo Mobile SDK allows integration with Marketo Mobile Engagement (MME).  
 
@@ -6,16 +6,19 @@ Installation instructions and more are [here](http://developers.marketo.com/docu
 
 Change Log
 
-v0.5.3
-- Fixed bug that stop push notification when app was closed
+v0.6.4
+- Exposed method [MarketoSDK reportAll] to immediately send events
 
-v0.5.2
-- Removed depricated android methods to allow building with Proguard
+v0.6.3
+- Support for InApp display frequnecy once.
 
-v0.5.1
-- Fixed intent.getAction condition
+v0.6.0
+- InApp Notifications
+
+v0.5.1 - v0.5.3
+- Fixed new_install bug
+- Fix for version bug
 
 v0.5.0
-- New secure access feature
-- New app type selection
-- Android notificaiton config large icon
+- Advanced secure access
+- Bitcode refactor
